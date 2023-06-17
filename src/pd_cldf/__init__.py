@@ -15,7 +15,7 @@ log = logging.getLogger(__name__)
 
 __author__ = "Florian Matter"
 __email__ = "fmatter@mailbox.org"
-__version__ = "0.0.1"
+__version__ = "0.0.2.dev"
 
 
 def load(metadata):
