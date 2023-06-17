@@ -9,7 +9,8 @@ metadata = {
     "version": config["bumpversion"]["current_version"],
     "date": now.strftime("%Y-%m-%d"),
 }
-template = open("etc/CITATION.cff", "r", encoding="utf-8").read()
+with open("etc/CITATION.cff", "r", encoding="utf-8") as f:
+    template = f.read()
 j2_template = Template(template)
 
 with open("CITATION.cff", "w", encoding="utf-8") as f:
