@@ -11,5 +11,5 @@ Read and write CLDF datasets with pandas.
 ![Versions](https://img.shields.io/pypi/pyversions/pd-cldf)
 
 
-* Documentation: https://pd-cldf.readthedocs.io
+* [Read the docs](https://pd-cldf.readthedocs.io)
 
